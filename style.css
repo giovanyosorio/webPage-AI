@@ -1,0 +1,150 @@
+
+
+/* Reset de estilos para el body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos predeterminados para el botón */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón en modo oscuro */
+.dark-mode button {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos generales para los encabezados */
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de inicio */
+#inicio {
+    padding: 50px;
+    background-color: #FFD1DC;
+    text-align: center;
+}
+
+#inicio img {
+    width: 150px;
+    /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 150px;
+    /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%;
+    /* Opcional: agregar bordes redondeados a la imagen */
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para la sección de habilidades */
+#habilidades {
+    padding: 50px;
+    background-color: #BCE5F5;
+}
+
+/* Estilos para la lista de habilidades */
+#habilidades ul {
+    list-style-type: none;
+}
+
+/* Estilos para la sección de proyectos */
+#proyectos {
+    padding: 50px;
+    background-color: #FFFFC2;
+}
+
+/* Estilos para la lista de proyectos */
+#proyectos ul {
+    list-style-type: none;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 50px;
+    background-color: #DCE0EA;
+}
+
+/* Estilos para la lista de contacto */
+#contacto ul {
+    list-style-type: none;
+}
+
+/* Estilos generales para los párrafos y listas */
+p,
+ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para los elementos de lista */
+li {
+    display: inline;
+    /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+    margin-right: 10px;
+    /* Espaciado entre los elementos de lista */
+}
+
+.dark-mode #habilidades {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+/* Estilos para la lista de habilidades en modo oscuro */
+.dark-mode #habilidades ul {
+    color: #fff;
+}
+
+/* Estilos para la sección de proyectos en modo oscuro */
+.dark-mode #proyectos {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para la lista de proyectos en modo oscuro */
+.dark-mode #proyectos ul {
+    color: #fff;
+}
+
+/* Estilos para la sección de contacto en modo oscuro */
+.dark-mode #contacto {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Estilos para la lista de contacto en modo oscuro */
+.dark-mode #contacto ul {
+    color: #fff;
+}
