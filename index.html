@@ -1,61 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-  <title>Mi Portafolio Personal</title>
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portafolio</title>
 </head>
-
 <body>
-
-  <section id="inicio">
-    <img
-      src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-      alt="Imagen de cabecera">
-    <h1>Giovany Osorio</h1>
-    <p>Programador web apasionad con experiencia en startups colombianas. Habilidades en HTML, CSS, JavaScript.
-      Enfoque en interfaces de usuario atractivas y eficientes.</p>
-    <ul>
-
-      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-      <li><a href="https://twitter.com/">Twitter</a></li>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <button id="mode-toggle">Cambiar a modo oscuro</button>
-
-    </ul>
-  </section>
-
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Otras habilidades relevantes</li>
-    </ul>
-  </section>
-
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <ul>
-      <li>Nombre del Proyecto 1</li>
-      <li>Nombre del Proyecto 2</li>
-      <li>Nombre del Proyecto 3</li>
-
-    </ul>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes contactarme a través de los siguientes medios:</p>
-    <ul>
-      <li>Email: tu@email.com</li>
-      <li>Teléfono: +123456789</li>
-      <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
-    </ul>
-  </section>
-
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Aquí puedes agregar una descripción breve sobre ti y tus habilidades como desarrollador.</p>
+        </section>
+        
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </div>
+            <!-- Agrega más proyectos aquí -->
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul>
+                <li>Email: tuemail@example.com</li>
+                <li>Teléfono: 123-456-7890</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/tuperfil">tuperfil</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2023 Tu Nombre</p>
+    </footer>
 </body>
-<script src="script.js"></script>
 </html>
